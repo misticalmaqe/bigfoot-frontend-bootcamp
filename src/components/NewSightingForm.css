@@ -1,0 +1,46 @@
+/* NewSightingForm.css */
+
+/* Styles for the main form container */
+.custom-form {
+  background-color: #f5f5f5; /* Light gray background */
+  padding: 20px; /* 20 pixels of padding inside the form */
+  border-radius: 10px; /* Rounded corners with a 10-pixel radius */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  width: 60%; /* Form width set to 60% of the parent container */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+/* Styles for the container holding two form sections */
+.form-content {
+  display: flex; /* Use flex layout to arrange sections side by side */
+  justify-content: space-between; /* Space between the two sections */
+}
+
+/* Styles for each of the two form sections */
+.form-section {
+  flex: 1; /* Equal space distribution within the container */
+  padding: 10px; /* 10 pixels of padding inside each section */
+  color: black; /* The color for Date and time, Categories,Location and Notes */
+  margin: 10px; /* 10 pixels of margin around each section */
+}
+
+/* Styles for form input elements, Select component, and textarea */
+.custom-input,
+.custom-select,
+.custom-textarea {
+  width: 100%; /* Full width within their containers */
+  padding: 8px; /* 8 pixels of padding inside each element */
+  margin: 8px 0; /* 8 pixels of margin above and below each element */
+  border: 1px solid #ccc; /* 1-pixel solid border with light gray color */
+  border-radius: 4px; /* Rounded corners with a 4-pixel radius */
+}
+
+/* Styles for the form submission button */
+.custom-button {
+  background-color: #4e97e4; /* Blue background color */
+  color: white; /* White text color */
+  border: none; /* No borders around the button */
+  padding: 10px 20px; /* 10 pixels of padding top and bottom, 20 pixels left and right */
+  border-radius: 5px; /* Rounded corners with a 5-pixel radius */
+  cursor: pointer; /* Pointer cursor on hover for clickability */
+}
